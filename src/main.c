@@ -9,6 +9,7 @@
 #define TAG "RAM_REC"
 
 // I2S pins (your wiring)
+
 #define I2S_BCLK   GPIO_NUM_36
 #define I2S_WS     GPIO_NUM_39
 #define I2S_SD     GPIO_NUM_17
