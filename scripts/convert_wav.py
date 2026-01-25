@@ -29,7 +29,7 @@ if peak > 0:
     samples = [int(s * gain) for s in samples]
 
 # -------- WRITE WAV --------
-wav = wave.open("audio2.wav", "w")
+wav = wave.open("audio3.wav", "w")
 wav.setnchannels(1)
 wav.setsampwidth(2)      # 16-bit PCM
 wav.setframerate(SAMPLE_RATE)
